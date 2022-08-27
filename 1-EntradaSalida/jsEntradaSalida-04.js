@@ -7,6 +7,6 @@ function mostrar()
 	
 	let dato = prompt("ingrese un  dato");
 	document.getElementById("txtIdNombre").value=dato;
-
+	//salida de datos en campos de texto
 }
 

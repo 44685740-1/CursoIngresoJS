@@ -1,3 +1,5 @@
+
+/*
 var miIntervalo ;
 
 function inicio()
@@ -12,4 +14,9 @@ function SegundosEnElAire() {
     alert("Bienvenido a la UTN FRA");
 
 }//FIN DE LA FUNCIÓN SegundosEnElAire
+
+*/
+setInterval(function(){ 
+	alert("intervalo");
+}, 7000);0
 

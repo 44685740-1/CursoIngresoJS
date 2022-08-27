@@ -1,0 +1,46 @@
+
+validacion de cuatro textos
+do{
+        tipoProducto = prompt("ingres el tipo de producto arena, cal o cemento").toLowerCase(tipoProducto);
+      } while(tipoProducto != "cal" && tipoProducto != "arena" && tipoProducto != "cemento" && tipoProducto != "ejemplo4");
+
+
+validacion de texto
+
+do{
+			nombre = prompt("ingrese su nombre");
+		} while(isNaN(nombre) == false);
+
+validacion genero
+
+do{
+			genero = prompt("ingrese su genero f/m").toLowerCase(genero);
+		} while(isNaN(genero) == false || genero != "f" && genero != "m");
+
+validacion edad o numero
+
+do{
+			edad = prompt("ingrese su edad");
+			edad = parseInt(edad)
+		} while(isNaN(edad) || edad < 0);
+
+Ejemplo Bandera Maximo y minimo
+flagPrimero == true
+
+if(flagPrimero == true){
+			numeroMaximo = numeroIngresado;
+			numeroMinimo = numeroIngresado;
+			flagPrimero = false
+		} else{
+
+			if(numeroIngresado > numeroMaximo){
+				numeroMaximo = numeroIngresado;
+			}
+
+			if(numeroIngresado < numeroMinimo){
+				numeroMinimo = numeroIngresado;
+			}
+		}
+
+
+
